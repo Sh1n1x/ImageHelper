@@ -2,12 +2,14 @@
     "name": "shinix/image-helper",
     "description": "Helper for Intervention Image on CakePHP 3.1",
     "require": {
-        "intervention/image": "^2.3"
+        "cakephp/cakephp": "3.*",
+        "intervention/image": "^2.3@dev"
     },
     "authors": [
         {
             "name": "Shinix",
             "email": "cecc.anthony@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
